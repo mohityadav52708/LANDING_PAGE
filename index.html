@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#about"><button>Get Started</button></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="homeheading">
+            <h1>Web Design</h1>
+            <b>
+                <p id="firstpara">LANDING PAGE</p>
+            </b>
+            <p id="secondpara">
+                A web page landing page serves as the initial point of contact for visitors, capturing their attention
+                and encouraging them to explore further. It plays a crucial role in conveying the essence of a brand or
+                product within a concise space. A well-designed landing page focuses on delivering a clear and
+                compelling message, utilizing persuasive visuals and concise copy. It aims to engage users and prompt
+                them to take a desired action, such as making a purchase, signing up for a newsletter, or downloading a
+                resource. Effective landing pages employ an aesthetically pleasing layout, responsive design, and
+                strategic placement of key elements to create an impactful user experience.</p>
+            <button id="button">Know More</button>
+            <div class="icons">
+                <a id="github" href="https://github.com/mohityadav7628"><i class="fa-brands fa-github"></i></a>
+                <a id="instagram" href="https://instagram.com/mohit_yadav_7658?igshid=MzNlNGNkZWQ4Mg=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-yadav-777782239/"><i class="fa-brands fa-linkedin"></i></a>
+                <a id="facebook" style="margin-right: 3rem;"
+                    href="https://www.facebook.com/profile.php?id=100063530392137&mibextid=ZbWKwL"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </div>
+        </div>
+
+
+
+        <script src="script.js">
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>
